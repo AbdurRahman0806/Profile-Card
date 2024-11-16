@@ -71,33 +71,32 @@ button{
 button:hover{
     height: 90px;
     width: 300px;
-    background-color: black;
+    box-shadow: gray 0px 0px 10px;
 }
 
 .instagram a{
     transition: all 0.3s ease-in-out;
     font-size: 18px;
     text-decoration: none;
-    color: black;
-    display: block;
+    color: purple;
+    display: inline;
+    height: 100%;
 }
 
 .linkedin a{
     transition: all 0.3s ease-in-out;
     font-size: 18px;
     text-decoration: none;
-    color: black;
-    display: block;
+    color: #0B65C2;
+    display: inline;
 }
 
 .linkedin a:hover{
-    color: #0B65C2;
-    font-size: 24px;
-    font-weight: 800;
+    box-shadow: 0 0 10px #0B65C2;
+    scale: 1.2;
 }
 
-.instagram a:hover {
-    color: #D301C5;
-    font-size: 24px;
-    font-weight: 800;
+.instagram a:hover{
+    box-shadow: 0 0 10px purple;
+    scale: 1.2;
 }
