@@ -34,7 +34,7 @@ body{
 }
 
 .profile:hover{
-    animation: rotate 2s linear 1;
+    animation: rotate 1s linear 1;
 }
 
 @keyframes rotate{
